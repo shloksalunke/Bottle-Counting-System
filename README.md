@@ -21,11 +21,9 @@
 
 ---
 
-## 📽️ Demo
-
-> Watch the system detect, track, and count bottles in real-time on a conveyor belt.
-
-https://github.com/user-attachments/assets/Bottle_Counting_Output.mp4
+<p align="center">
+  <img src="assets/thumbnail.png" width="1000">
+</p>
 
 ---
 
