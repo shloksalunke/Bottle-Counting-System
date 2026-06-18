@@ -22,7 +22,7 @@
 ---
 
 <p align="center">
-  <img src="assets/thumbnail.png" width="1000">
+  <img src="assests/thumbnail.png" width="1000">
 </p>
 
 ---
@@ -99,8 +99,8 @@ bottle-counting-yolov8/
 ├── assets/
 │   └── output.png            # Sample output screenshot
 │
-├── bottle_counter.py         # Main inference & counting script
-├── requirements.txt          # Python dependencies
+├──src/
+   └──infer.py                # Main inference & counting script      
 └── README.md
 ```
 
@@ -118,22 +118,15 @@ bottle-counting-yolov8/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/bottle-counting-yolov8.git
-cd bottle-counting-yolov8
+git clone https://github.com/shloksalunke/bottle-counting-yolov8.git
+cd src
 
-# 2. Install dependencies
-pip install -r requirements.txt
-```
 
 ### Running Inference
 
 ```bash
 # Run on a video file
-python bottle_counter.py --source videos/input.mp4
-
-# Run on webcam
-python bottle_counter.py --source 0
-```
+python infer.py --source videos/input.mp4
 
 ---
 
@@ -181,14 +174,3 @@ Building this project from scratch provided hands-on experience with the **compl
 - Performance constraints and tradeoffs on lightweight edge models
 
 ---
-
-## 🔮 Roadmap
-
-- [ ] TensorRT optimization for faster inference
-- [ ] INT8 model quantization for reduced memory footprint
-- [ ] Deployment on Raspberry Pi and NVIDIA Jetson Nano
-- [ ] Multi-class object counting support
-- [ ] Integration with industrial defect detection workflows
-- [ ] Web dashboard for live monitoring and count visualization
-
-
