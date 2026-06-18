@@ -25,9 +25,7 @@
 
 > Watch the system detect, track, and count bottles in real-time on a conveyor belt.
 
-https://github.com/shloksalunke/Bottle-Counting-System.git/Bottle_Counting_Output.mp4
-
-> **Note:** Replace `your-video-id` with your actual GitHub asset video ID. Upload your `demo.mp4` to the repository and GitHub will auto-generate a playable embed link.
+<video src="Bottle_Counting_Output.mp4" controls></video>
 
 ---
 
